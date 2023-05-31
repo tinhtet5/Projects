@@ -1,0 +1,64 @@
+
+
+HI-TECH Software PICC Macro Assembler V9.60PL3 build 3862 
+                                                      Thu Nov 29 15:55:06 2018
+
+HI-TECH Software Code Generator build 3862
+     1                           	processor	16F887
+     2                           	opt	pw 79
+     3                           	psect	text0,local,class=CODE,delta=2
+     4                           	psect	text1,local,class=CODE,delta=2
+     5  0000                     
+     6  0000                     
+     7  0000                     
+     8  0000                     
+     9  0000                     
+    10  0000                     
+    11  0000                     
+    12  0000                     
+    13  0000                     
+    14  0000                     
+    15  0000                     
+    16  0000                     _delay_ms$MS	set	?_delay_ms
+    17                           
+    18                           	psect	text0
+    19  0133                     _delay_ms
+    20                           ;	_cycles assigned to ?a_delay_ms+0
+    21  0000                     _delay_ms$cycles	set	?a_delay_ms
+    22  0133                     l4
+    23                           ;Delay.c: 4: void delay_ms(int MS)
+    24                           ;Delay.c: 7: {
+    25  0133  3026               	movlw	38
+    26  0134  0183               	clrf	3	;select bank 0
+    27  0135  00A4               	movwf	?a_delay_ms
+    28  0136  3002               	movlw	2
+    29  0137  00A5               	movwf	?a_delay_ms+1
+    30  0138  30FF               	movlw	-1
+    31  0139                     L1
+    32  0139  07A4               	addwf	?a_delay_ms
+    33  013A  1C03               	btfss	3,0
+    34  013B  03A5               	decf	?a_delay_ms+1
+    35  013C  0825               	movf	?a_delay_ms+1,w
+    36  013D  0424               	iorwf	?a_delay_ms,w
+    37                           ;Delay.c: 9: }
+    38  013E  30FF               	movlw	-1
+    39  013F  1D03               	btfss	3,2
+    40  0140  2939               	goto	L1
+    41  0141  07A4               	addwf	?_delay_ms
+    42  0142  1C03               	btfss	3,0
+    43  0143  03A5               	decf	?_delay_ms+1
+    44  0144  0825               	movf	?_delay_ms+1,w
+    45  0145  0424               	iorwf	?_delay_ms,w
+    46  0146  1903               	btfsc	3,2
+    47  0147  0008               	return
+    48  0148  2933               	goto	l4
+    49                           
+    50                           	psect	text1
+    51  016E                     __end_of_delay_ms
+
+
+HI-TECH Software PICC Macro Assembler V9.60PL3 build 3862 
+Symbol Table                                          Thu Nov 29 15:55:06 2018
+
+        _delay_ms 0133                 l4 0133         ?_delay_ms 0024  
+      ?a_delay_ms 0024  __end_of_delay_ms 016E             status 0003  

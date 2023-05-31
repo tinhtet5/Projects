@@ -1,0 +1,642 @@
+
+
+HI-TECH Software PICC Macro Assembler V9.60PL3 build 3862 
+                                                      Thu Aug 16 22:44:50 2018
+
+HI-TECH Software Code Generator build 3862
+     1                           	processor	16F887
+     2                           	opt	pw 79
+     3                           	psect	text0,local,class=CODE,delta=2
+     4                           	psect	text1,local,class=CODE,delta=2
+     5                           	psect	text2,local,class=CODE,delta=2
+     6                           	psect	text3,local,class=CODE,delta=2
+     7  0000                     
+     8  0000                     
+     9  0000                     
+    10  0000                     
+    11  0000                     
+    12  0000                     
+    13  0000                     
+    14  0000                     
+    15  0000                     
+    16  0000                     
+    17  0000                     
+    18                           
+    19                           	psect	text0
+    20  00CD                     _Rotation0
+    21                           ;	_i assigned to ?a_Rotation0+0
+    22  0000                     _Rotation0$i	set	?a_Rotation0
+    23                           ;	_cycles assigned to ?a_Rotation0+2
+    24  0000                     _Rotation0$cycles	set	?a_Rotation0+2
+    25                           ;	_cycles assigned to ?a_Rotation0+2
+    26  0000                     _Rotation0$cycles	set	?a_Rotation0+2
+    27                           ;Servo.c: 6: void Rotation0(void)
+    28  00CD  0183               	clrf	3	;select bank 0
+    29  00CE  01A1               	clrf	?a_Rotation0
+    30  00CF  01A2               	clrf	?a_Rotation0+1
+    31  00D0                     l2
+    32                           ;Servo.c: 10: {
+    33  00D0  1488               	bsf	8,1
+    34                           ;Servo.c: 12: {unsigned int cycles; cycles=(uns
+      +                          igned int) ((800*1e-6)/(9.0*4/(20*1e6))); while
+      +                          (--cycles); };
+    35  00D1  30BC               	movlw	188
+    36  00D2  00A3               	movwf	?a_Rotation0+2
+    37  00D3  3001               	movlw	1
+    38  00D4  00A4               	movwf	?a_Rotation0+3
+    39  00D5                     l5
+    40  00D5  30FF               	movlw	-1
+    41  00D6  07A3               	addwf	?a_Rotation0+2
+    42  00D7  1C03               	btfss	3,0
+    43  00D8  03A4               	decf	?a_Rotation0+3
+    44  00D9  0824               	movf	?a_Rotation0+3,w
+    45  00DA  0423               	iorwf	?a_Rotation0+2,w
+    46  00DB  1D03               	btfss	3,2
+    47  00DC  28D5               	goto	l5
+    48                           ;Servo.c: 13: RD1 = 0;
+    49  00DD  1088               	bcf	8,1
+    50                           ;Servo.c: 14: {unsigned int cycles; cycles=(uns
+      +                          igned int) ((19200*1e-6)/(9.0*4/(20*1e6))); whi
+      +                          le(--cycles); };
+    51  00DE  30AA               	movlw	170
+    52  00DF  00A3               	movwf	?a_Rotation0+2
+    53  00E0  3029               	movlw	41
+    54  00E1  00A4               	movwf	?a_Rotation0+3
+    55  00E2                     l8
+    56  00E2  30FF               	movlw	-1
+    57  00E3  07A3               	addwf	?a_Rotation0+2
+    58  00E4  1C03               	btfss	3,0
+    59  00E5  03A4               	decf	?a_Rotation0+3
+    60  00E6  0824               	movf	?a_Rotation0+3,w
+    61  00E7  0423               	iorwf	?a_Rotation0+2,w
+    62  00E8  1D03               	btfss	3,2
+    63  00E9  28E2               	goto	l8
+    64  00EA  0AA1               	incf	?a_Rotation0
+    65  00EB  1903               	btfsc	3,2
+    66  00EC  0AA2               	incf	?a_Rotation0+1
+    67  00ED  3000               	movlw	0
+    68  00EE  0222               	subwf	?a_Rotation0+1,w
+    69  00EF  3032               	movlw	50
+    70  00F0  1903               	btfsc	3,2
+    71  00F1  0221               	subwf	?a_Rotation0,w
+    72  00F2  1803               	btfsc	3,0
+    73  00F3  0008               	return
+    74  00F4  28D0               	goto	l2
+    75                           
+    76                           	psect	text1
+    77  00A5                     __end_of_Rotation0
+    78  00A5                     _Rotation90
+    79                           ;	_i assigned to ?a_Rotation90+0
+    80  0000                     _Rotation90$i	set	?a_Rotation90
+    81                           ;	_cycles assigned to ?a_Rotation90+2
+    82  0000                     _Rotation90$cycles	set	?a_Rotation90+2
+    83                           ;	_cycles assigned to ?a_Rotation90+2
+    84  0000                     _Rotation90$cycles	set	?a_Rotation90+2
+    85                           ;Servo.c: 18: void Rotation90(void)
+    86  00A5  0183               	clrf	3	;select bank 0
+    87  00A6  01A1               	clrf	?a_Rotation90
+    88  00A7  01A2               	clrf	?a_Rotation90+1
+    89  00A8                     l12
+    90                           ;Servo.c: 22: {
+    91  00A8  1488               	bsf	8,1
+    92                           ;Servo.c: 24: {unsigned int cycles; cycles=(uns
+      +                          igned int) ((1500*1e-6)/(9.0*4/(20*1e6))); whil
+      +                          e(--cycles); };
+    93  00A9  3041               	movlw	65
+    94  00AA  00A3               	movwf	?a_Rotation90+2
+    95  00AB  3003               	movlw	3
+    96  00AC  00A4               	movwf	?a_Rotation90+3
+    97  00AD                     l15
+    98  00AD  30FF               	movlw	-1
+    99  00AE  07A3               	addwf	?a_Rotation90+2
+   100  00AF  1C03               	btfss	3,0
+   101  00B0  03A4               	decf	?a_Rotation90+3
+   102  00B1  0824               	movf	?a_Rotation90+3,w
+   103  00B2  0423               	iorwf	?a_Rotation90+2,w
+   104  00B3  1D03               	btfss	3,2
+   105  00B4  28AD               	goto	l15
+   106                           ;Servo.c: 25: RD1 = 0;
+   107  00B5  1088               	bcf	8,1
+   108                           ;Servo.c: 26: {unsigned int cycles; cycles=(uns
+      +                          igned int) ((18500*1e-6)/(9.0*4/(20*1e6))); whi
+      +                          le(--cycles); };
+   109  00B6  3025               	movlw	37
+   110  00B7  00A3               	movwf	?a_Rotation90+2
+   111  00B8  3028               	movlw	40
+   112  00B9  00A4               	movwf	?a_Rotation90+3
+   113  00BA                     l18
+   114  00BA  30FF               	movlw	-1
+   115  00BB  07A3               	addwf	?a_Rotation90+2
+   116  00BC  1C03               	btfss	3,0
+   117  00BD  03A4               	decf	?a_Rotation90+3
+   118  00BE  0824               	movf	?a_Rotation90+3,w
+   119  00BF  0423               	iorwf	?a_Rotation90+2,w
+   120  00C0  1D03               	btfss	3,2
+   121  00C1  28BA               	goto	l18
+   122  00C2  0AA1               	incf	?a_Rotation90
+   123  00C3  1903               	btfsc	3,2
+   124  00C4  0AA2               	incf	?a_Rotation90+1
+   125  00C5  3000               	movlw	0
+   126  00C6  0222               	subwf	?a_Rotation90+1,w
+   127  00C7  3032               	movlw	50
+   128  00C8  1903               	btfsc	3,2
+   129  00C9  0221               	subwf	?a_Rotation90,w
+   130  00CA  1803               	btfsc	3,0
+   131  00CB  0008               	return
+   132  00CC  28A8               	goto	l12
+   133                           
+   134                           	psect	text2
+   135  007D                     __end_of_Rotation90
+   136  007D                     _Rotation180
+   137                           ;	_i assigned to ?a_Rotation180+0
+   138  0000                     _Rotation180$i	set	?a_Rotation180
+   139                           ;	_cycles assigned to ?a_Rotation180+2
+   140  0000                     _Rotation180$cycles	set	?a_Rotation180+2
+   141                           ;	_cycles assigned to ?a_Rotation180+2
+   142  0000                     _Rotation180$cycles	set	?a_Rotation180+2
+   143                           ;Servo.c: 30: void Rotation180(void)
+   144  007D  0183               	clrf	3	;select bank 0
+   145  007E  01A1               	clrf	?a_Rotation180
+   146  007F  01A2               	clrf	?a_Rotation180+1
+   147  0080                     l22
+   148                           ;Servo.c: 34: {
+   149  0080  1488               	bsf	8,1
+   150                           ;Servo.c: 36: {unsigned int cycles; cycles=(uns
+      +                          igned int) ((2200*1e-6)/(9.0*4/(20*1e6))); whil
+      +                          e(--cycles); };
+   151  0081  30C6               	movlw	198
+   152  0082  00A3               	movwf	?a_Rotation180+2
+   153  0083  3004               	movlw	4
+   154  0084  00A4               	movwf	?a_Rotation180+3
+   155  0085                     l25
+   156  0085  30FF               	movlw	-1
+   157  0086  07A3               	addwf	?a_Rotation180+2
+   158  0087  1C03               	btfss	3,0
+   159  0088  03A4               	decf	?a_Rotation180+3
+   160  0089  0824               	movf	?a_Rotation180+3,w
+   161  008A  0423               	iorwf	?a_Rotation180+2,w
+   162  008B  1D03               	btfss	3,2
+   163  008C  2885               	goto	l25
+   164                           ;Servo.c: 37: RD1 = 0;
+   165  008D  1088               	bcf	8,1
+   166                           ;Servo.c: 38: {unsigned int cycles; cycles=(uns
+      +                          igned int) ((17800*1e-6)/(9.0*4/(20*1e6))); whi
+      +                          le(--cycles); };
+   167  008E  30A0               	movlw	160
+   168  008F  00A3               	movwf	?a_Rotation180+2
+   169  0090  3026               	movlw	38
+   170  0091  00A4               	movwf	?a_Rotation180+3
+   171  0092                     l28
+   172  0092  30FF               	movlw	-1
+   173  0093  07A3               	addwf	?a_Rotation180+2
+   174  0094  1C03               	btfss	3,0
+   175  0095  03A4               	decf	?a_Rotation180+3
+   176  0096  0824               	movf	?a_Rotation180+3,w
+   177  0097  0423               	iorwf	?a_Rotation180+2,w
+   178  0098  1D03               	btfss	3,2
+   179  0099  2892               	goto	l28
+   180  009A  0AA1               	incf	?a_Rotation180
+   181  009B  1903               	btfsc	3,2
+   182  009C  0AA2               	incf	?a_Rotation180+1
+   183  009D  3000               	movlw	0
+   184  009E  0222               	subwf	?a_Rotation180+1,w
+   185  009F  3032               	movlw	50
+   186  00A0  1903               	btfsc	3,2
+   187  00A1  0221               	subwf	?a_Rotation180,w
+   188  00A2  1803               	btfsc	3,0
+   189  00A3  0008               	return
+   190  00A4  2880               	goto	l22
+   191                           
+   192                           	psect	text3
+   193  0159                     __end_of_Rotation180
+   194  0000                     
+   195  0000                     
+   196  0000                     
+   197  0000                     
+   198  0000                     
+   199  0000                     
+   200  0000                     
+   201  0000                     
+   202  0000                     
+   203  0000                     
+   204  0000                     
+   205  0000                     
+   206  0000                     
+   207  0000                     
+   208  0000                     
+   209  0000                     
+   210  0000                     
+   211  0000                     
+   212  0000                     
+   213  0000                     
+   214  0000                     
+   215  0000                     
+   216  0000                     
+   217  0000                     
+   218  0000                     
+   219  0000                     
+   220  0000                     
+   221  0000                     
+   222  0000                     
+   223  0000                     
+   224  0000                     
+   225  0000                     
+   226  0000                     
+   227  0000                     
+   228  0000                     
+   229  0000                     
+   230  0000                     
+   231  0000                     
+   232  0000                     
+   233  0000                     
+   234  0000                     
+   235  0000                     
+   236  0000                     
+   237  0000                     
+   238  0000                     
+   239  0000                     
+   240  0000                     
+   241  0000                     
+   242  0000                     
+   243  0000                     
+   244  0000                     
+   245  0000                     
+   246  0000                     
+   247  0000                     
+   248  0000                     
+   249  0000                     
+   250  0000                     
+   251  0000                     
+   252  0000                     
+   253  0000                     
+   254  0000                     
+   255  0000                     
+   256  0000                     
+   257  0000                     
+   258  0000                     
+   259  0000                     
+   260  0000                     
+   261  0000                     
+   262  0000                     
+   263  0000                     
+   264  0000                     
+   265  0000                     
+   266  0000                     
+   267  0000                     
+   268  0000                     
+   269  0000                     
+   270  0000                     
+   271  0000                     
+   272  0000                     
+   273  0000                     
+   274  0000                     
+   275  0000                     
+   276  0000                     
+   277  0000                     
+   278  0000                     
+   279  0000                     
+   280  0000                     
+   281  0000                     
+   282  0000                     
+   283  0000                     
+   284  0000                     
+   285  0000                     
+   286  0000                     
+   287  0000                     
+   288  0000                     
+   289  0000                     
+   290  0000                     
+   291  0000                     
+   292  0000                     
+   293  0000                     
+   294  0000                     
+   295  0000                     
+   296  0000                     
+   297  0000                     
+   298  0000                     
+   299  0000                     
+   300  0000                     
+   301  0000                     
+   302  0000                     
+   303  0000                     
+   304  0000                     
+   305  0000                     
+   306  0000                     
+   307  0000                     
+   308  0000                     
+   309  0000                     
+   310  0000                     
+   311  0000                     
+   312  0000                     
+   313  0000                     
+   314  0000                     
+   315  0000                     
+   316  0000                     
+   317  0000                     
+   318  0000                     
+   319  0000                     
+   320  0000                     
+   321  0000                     
+   322  0000                     
+   323  0000                     
+   324  0000                     
+   325  0000                     
+   326  0000                     
+   327  0000                     
+   328  0000                     
+   329  0000                     
+   330  0000                     
+   331  0000                     
+   332  0000                     
+   333  0000                     
+   334  0000                     
+   335  0000                     
+   336  0000                     
+   337  0000                     
+   338  0000                     
+   339  0000                     
+   340  0000                     
+   341  0000                     
+   342  0000                     
+   343  0000                     
+   344  0000                     
+   345  0000                     
+   346  0000                     
+   347  0000                     
+   348  0000                     
+   349  0000                     
+   350  0000                     
+   351  0000                     
+   352  0000                     
+   353  0000                     
+   354  0000                     
+   355  0000                     
+   356  0000                     
+   357  0000                     
+   358  0000                     
+   359  0000                     
+   360  0000                     
+   361  0000                     
+   362  0000                     
+   363  0000                     
+   364  0000                     
+   365  0000                     
+   366  0000                     
+   367  0000                     
+   368  0000                     
+   369  0000                     
+   370  0000                     
+   371  0000                     
+   372  0000                     
+   373  0000                     
+   374  0000                     
+   375  0000                     
+   376  0000                     
+   377  0000                     
+   378  0000                     
+   379  0000                     
+   380  0000                     
+   381  0000                     
+   382  0000                     
+   383  0000                     
+   384  0000                     
+   385  0000                     
+   386  0000                     
+   387  0000                     
+   388  0000                     
+   389  0000                     
+   390  0000                     
+   391  0000                     
+   392  0000                     
+   393  0000                     
+   394  0000                     
+   395  0000                     
+   396  0000                     
+   397  0000                     
+   398  0000                     
+   399  0000                     
+   400  0000                     
+   401  0000                     
+   402  0000                     
+   403  0000                     
+   404  0000                     
+   405  0000                     
+   406  0000                     
+   407  0000                     
+   408  0000                     
+   409  0000                     
+   410  0000                     
+   411  0000                     
+   412  0000                     
+   413  0000                     
+   414  0000                     
+   415  0000                     
+   416  0000                     
+   417  0000                     
+   418  0000                     
+   419  0000                     
+   420  0000                     
+   421  0000                     
+   422  0000                     
+   423  0000                     
+   424  0000                     
+   425  0000                     
+   426  0000                     
+   427  0000                     
+   428  0000                     
+   429  0000                     
+   430  0000                     
+   431  0000                     
+   432  0000                     
+   433  0000                     
+   434  0000                     
+   435  0000                     
+   436  0000                     
+   437  0000                     
+   438  0000                     
+   439  0000                     
+   440  0000                     
+   441  0000                     
+   442  0000                     
+   443  0000                     
+   444  0000                     
+   445  0000                     
+   446  0000                     
+   447  0000                     
+   448  0000                     
+   449  0000                     
+   450  0000                     
+   451  0000                     
+   452  0000                     
+   453  0000                     
+   454  0000                     
+   455  0000                     
+   456  0000                     
+   457  0000                     
+   458  0000                     
+   459  0000                     
+   460  0000                     
+   461  0000                     
+   462  0000                     
+   463  0000                     
+   464  0000                     
+   465  0000                     
+   466  0000                     
+   467  0000                     
+   468  0000                     
+   469  0000                     
+   470  0000                     
+   471  0000                     
+   472  0000                     
+   473  0000                     
+   474  0000                     
+   475  0000                     
+   476  0000                     
+   477  0000                     
+   478  0000                     
+   479  0000                     
+   480  0000                     
+   481  0000                     
+   482  0000                     
+   483  0000                     
+   484  0000                     
+   485  0000                     
+   486  0000                     
+   487  0000                     
+   488  0000                     
+   489  0000                     
+   490  0000                     
+   491  0000                     
+   492  0000                     
+   493  0000                     
+   494  0000                     
+   495  0000                     
+   496  0000                     
+   497  0000                     
+   498  0000                     
+   499  0000                     
+   500  0000                     
+   501  0000                     
+   502  0000                     
+   503  0000                     
+   504  0000                     
+   505  0000                     
+   506  0000                     
+   507  0000                     
+   508  0000                     
+   509  0000                     
+   510  0000                     
+   511  0000                     
+   512  0000                     
+   513  0000                     
+   514  0000                     
+   515  0000                     
+   516  0000                     
+   517  0000                     
+   518  0000                     
+   519  0000                     
+   520  0000                     
+   521  0000                     
+   522  0000                     
+   523  0000                     
+   524  0000                     
+   525  0000                     
+   526  0000                     
+   527  0000                     
+   528  0000                     
+   529  0000                     
+   530  0000                     
+   531  0000                     
+   532  0000                     
+   533  0000                     
+   534  0000                     
+   535  0000                     
+   536  0000                     
+   537  0000                     
+   538  0000                     
+   539  0000                     
+   540  0000                     
+   541  0000                     
+   542  0000                     
+   543  0000                     
+   544  0000                     
+   545  0000                     
+   546  0000                     
+   547  0000                     
+   548  0000                     
+   549  0000                     
+   550  0000                     
+   551  0000                     
+   552  0000                     
+   553  0000                     
+   554  0000                     
+   555  0000                     
+   556  0000                     
+   557  0000                     
+   558  0000                     
+   559  0000                     
+   560  0000                     
+   561  0000                     
+   562  0000                     
+   563  0000                     
+   564  0000                     
+   565  0000                     
+   566  0000                     
+   567  0000                     
+   568  0000                     
+   569  0000                     
+   570  0000                     
+   571  0000                     
+   572  0000                     
+   573  0000                     
+   574  0000                     
+   575  0000                     
+   576  0000                     
+   577  0000                     
+   578  0000                     
+   579  0000                     
+   580  0000                     
+   581  0000                     
+   582  0000                     
+   583  0000                     
+   584  0000                     
+   585  0000                     
+   586  0000                     
+   587  0000                     
+   588  0000                     
+   589  0000                     
+   590  0000                     
+   591  0000                     
+   592  0000                     
+   593  0000                     
+   594  0000                     
+   595  0000                     
+   596  0000                     
+   597  0000                     
+   598  0000                     
+   599  0000                     
+   600  0000                     
+   601  0000                     
+   602  0000                     
+   603  0000                     
+   604  0000                     
+   605  0000                     
+   606  0000                     
+   607  0000                     
+   608  0000                     
+   609  0000                     
+
+
+HI-TECH Software PICC Macro Assembler V9.60PL3 build 3862 
+Symbol Table                                          Thu Aug 16 22:44:50 2018
+
+                  l2 00D0                    l5 00D5  
+                  l8 00E2                   l12 00A8  
+                 l22 0080                   l15 00AD  
+                 l25 0085                   l18 00BA  
+                 l28 0092          _Rotation180 007D  
+       ?a_Rotation90 0021        ?a_Rotation180 0021  
+         _Rotation90 00A5          ?a_Rotation0 0021  
+              status 0003            _Rotation0 00CD  
+__end_of_Rotation180 0159   __end_of_Rotation90 007D  
+  __end_of_Rotation0 00A5  

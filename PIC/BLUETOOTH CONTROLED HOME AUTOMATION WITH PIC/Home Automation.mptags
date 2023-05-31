@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+BAUDRATE::9600	D:\C Language\Home Autoation\usart.c	6;"	d	line:6	file:
+CALC_BAUDRATE::((FOSC/BAUDRATE)/64)-1	D:\C Language\Home Autoation\usart.c	7;"	d	line:7	file:
+FOSC::20MHz	D:\C Language\Home Autoation\Delay.h	5;"	d	line:5
+FOSC::20e6	D:\C Language\Home Autoation\usart.c	5;"	d	line:5	file:
+HS	D:\C Language\Home Autoation\main.c	8;"	v	line:8
+Init_CCP_PWM	D:\C Language\Home Autoation\CCP_PWM.c	5;"	f	line:5	signature:(void)
+Init_CCP_PWM	D:\C Language\Home Autoation\CCP_PWM.h	1;"	p	line:1	signature:(void)
+Init_PIC	D:\C Language\Home Autoation\Init_PIC.c	3;"	f	line:3	signature:(void)
+Init_PIC	D:\C Language\Home Autoation\Init_PIC.h	2;"	p	line:2	signature:(void)
+Init_USART	D:\C Language\Home Autoation\usart.c	9;"	f	line:9	signature:(void)
+Init_USART	D:\C Language\Home Autoation\usart.h	1;"	p	line:1	signature:(void)
+MHz::*1e6	D:\C Language\Home Autoation\Delay.h	3;"	d	line:3
+Rotation0	D:\C Language\Home Autoation\Servo.c	4;"	f	line:4	signature:(void)
+Rotation0	D:\C Language\Home Autoation\Servo.h	1;"	p	line:1	signature:(void)
+Rotation180	D:\C Language\Home Autoation\Servo.c	28;"	f	line:28	signature:(void)
+Rotation180	D:\C Language\Home Autoation\Servo.h	3;"	p	line:3	signature:(void)
+Rotation90	D:\C Language\Home Autoation\Servo.c	16;"	f	line:16	signature:(void)
+Rotation90	D:\C Language\Home Autoation\Servo.h	2;"	p	line:2	signature:(void)
+bluetooth	D:\C Language\Home Autoation\main.c	30;"	f	line:30	signature:(void)
+delay_ms	D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c	4;"	f	line:4	signature:(int MS)
+delay_ms	D:\C Language\Home Autoation\Delay.h	12;"	p	line:12	signature:(int MS)
+delay_us::(x){unsignedintcycles;	D:\C Language\Home Autoation\Delay.h	10;"	d	line:10
+i	D:\C Language\Home Autoation\Servo.c	18;"	l	line:18
+i	D:\C Language\Home Autoation\Servo.c	30;"	l	line:30
+i	D:\C Language\Home Autoation\Servo.c	6;"	l	line:6
+main	D:\C Language\Home Autoation\main.c	12;"	f	line:12	signature:(void)
+recdata	D:\C Language\Home Autoation\main.c	10;"	v	line:10

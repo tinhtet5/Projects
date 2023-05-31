@@ -1,0 +1,318 @@
+HI-TECH Software C Compiler 
+
+Linker command line:
+
+--edf=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\dat\en_msgs.txt \
+  -h+Location Tracker.sym -z -Q16F887 -ol.obj -MLocation Tracker.map -E1 \
+  -ACODE=00h-07FFhx4 -ACONST=00h-0FFhx32 -AENTRY=00h-0FFhx32 \
+  -ASTRING=00h-0FFhx32 -ABANK0=020h-07Fh -ABANK1=0A0h-0EFh \
+  -ABANK2=0110h-016Fh -ABANK3=0190h-01EFh -ACOMBANK=070h-07Fh \
+  -preset_vec=00h,intentry=04h,intcode,intret,init,init23,end_init,clrtext,maintext,stringtable,pstrings,strings \
+  -ppowerup=CODE -ptemp=-COMBANK -pintsave_0=-COMBANK \
+  -prbit_0=BANK0,rbss_0=BANK0,rdata_0=BANK0,idata_0=CODE -pnvram=BANK0 \
+  -pintsave_1=BANK1 -prbit_1=BANK1,rbss_1=BANK1,rdata_1=BANK1,idata_1=CODE \
+  -pnvram_1=BANK1,nvbit_1=BANK1 -pintsave_2=BANK2 \
+  -prbit_2=BANK2,rbss_2=BANK2,rdata_2=BANK2,idata_2=CODE \
+  -pnvram_2=BANK2,nvbit_2=BANK2 -pintsave_3=BANK3 \
+  -prbit_3=BANK3,rbss_3=BANK3,rdata_3=BANK3,idata_3=CODE \
+  -pnvram_3=BANK3,nvbit_3=BANK3 -ACONFIG=02007h-02008h -pconfig=CONFIG \
+  -AIDLOC=02000h-02003h -pidloc=IDLOC -AEEDATA=00h-0FFh/02100h \
+  -peeprom_data=EEDATA -pfloat_text0=CODE,float_text1=CODE,float_text2=CODE \
+  -pfloat_text3=CODE,float_text4=CODE \
+  C:\Users\M\AppData\Local\Temp\s42s.obj Delay.obj Init_PIC.obj main.obj \
+  usart.obj \
+  C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\lib\pic618-p.lib \
+  C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\lib\pic32--u.lib \
+  C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\lib\pic42c-c.lib \
+  C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\lib\pic32--u.lib 
+
+Object code version is 3.10
+
+Machine type is 16F887
+
+Call graph:
+
+*_main size 0,0 offset 0
+*    _Init_PIC size 0,0 offset 0
+*    _Init_USART size 0,0 offset 0
+
+Estimated maximum call depth: 1
+
+*_gps size 0,0 offset 0
+*    _Send_Char size 0,1 offset 0
+     lbtoft size 0,0 offset 0
+     fttol size 0,0 offset 0
+         ftunpack1 size 0,0 offset 0
+         l0neg size 0,0 offset 0
+
+Estimated maximum call depth: 3
+
+
+		Name          Link     Load   Length Selector Space Scale
+C:\Users\M\AppData\Local\Temp\s42s.obj
+		reset_vec        0        0        3       0     0
+		init            59       59        4       8     0
+		end_init        5D       5D        B       8     0
+Delay.obj       text0          133      133       16       8     0
+Init_PIC.obj    text0          149      149        F       8     0
+main.obj        intcode         1F       1F       1F       8     0
+		intentry         4        4        9       8     0
+		intret          50       50        9       8     0
+		intsave_0       76       76        1      76     1
+		config        2007     2007        1    400E     0
+		rbss_0          20       20        4      20     1
+		temp            77       77        3      77     1
+		intsave         26       26        3      20     1
+		text0          158      158        D       8     0
+usart.obj       text1          165      165        9       8     0
+		text0          113      113       20       8     0
+
+C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\lib\pic618-p.lib
+
+C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\lib\pic32--u.lib
+
+C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\lib\pic42c-c.lib
+btemp0.obj      temp            77       77        1      77     1
+btemp1.obj      temp            77       77        2      77     1
+btemp2.obj      temp            77       77        3      77     1
+btemp3.obj      temp            77       77        4      77     1
+btemp4.obj      temp            77       77        5      77     1
+btemp5.obj      temp            77       77        6      77     1
+btemp6.obj      temp            77       77        7      77     1
+btemp7.obj      temp            77       77        8      77     1
+btemp8.obj      temp            77       77        9      77     1
+btoft.obj       float_tex       76       76        D       8     0
+		temp            77       77        9      77     1
+codeptr.obj     
+float.obj       float_tex       83       83       4E       8     0
+		temp            77       77        9      77     1
+fttol.obj       float_tex       D1       D1       23       8     0
+		temp            77       77        9      77     1
+l0neg.obj       float_tex       68       68        E       8     0
+		temp            77       77        4      77     1
+ltoft.obj       float_tex       F4       F4       13       8     0
+		temp            77       77        9      77     1
+sbtemp0.obj     intcode         3E       3E        2       8     0
+		intentry         D        D        2       8     0
+		intsave         2C       2C        1      20     1
+sbtemp10.obj    
+sbtemp11.obj    
+sbtemp12.obj    
+sbtemp13.obj    
+sbtemp14.obj    
+sbtemp1.obj     intcode         40       40        2       8     0
+		intentry         F        F        2       8     0
+		intsave         2B       2B        1      20     1
+sbtemp2.obj     intcode         42       42        2       8     0
+		intentry        11       11        2       8     0
+		intsave         31       31        1      20     1
+sbtemp3.obj     intcode         44       44        2       8     0
+		intentry        13       13        2       8     0
+		intsave         2E       2E        1      20     1
+sbtemp4.obj     intcode         46       46        2       8     0
+		intentry        15       15        2       8     0
+		intsave         2F       2F        1      20     1
+sbtemp5.obj     intcode         48       48        2       8     0
+		intentry        17       17        2       8     0
+		intsave         2A       2A        1      20     1
+sbtemp6.obj     intcode         4A       4A        2       8     0
+		intentry        19       19        2       8     0
+		intsave         29       29        1      20     1
+sbtemp7.obj     intcode         4C       4C        2       8     0
+		intentry        1B       1B        2       8     0
+		intsave         2D       2D        1      20     1
+sbtemp8.obj     intcode         4E       4E        2       8     0
+		intentry        1D       1D        2       8     0
+		intsave         30       30        1      20     1
+sbtemp9.obj     
+scodeptr.obj    
+store3.obj      temp            77       77        9      77     1
+		ftext0         107      107        C       8     0
+
+C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\lib\pic32--u.lib
+
+COMMON          rbss_0          24       24        2      20     1
+
+TOTAL		Name          Link     Load   Length
+	CLASS	CODE     
+		intcode         1F       1F       31
+		intentry         4        4       1B
+		intret          50       50        9
+		reset_vec        0        0        3
+		float_tex       68       68        E
+		float_tex       76       76       91
+		init            59       59        4
+		end_init        5D       5D        B
+		text0          133      133       16
+		text0          149      149        F
+		text0          158      158        D
+		text1          165      165        9
+		text0          113      113       20
+		ftext0         107      107        C
+
+	CLASS	CONST    
+
+	CLASS	ENTRY    
+
+	CLASS	STRING   
+
+	CLASS	BANK0    
+		rbss_0          20       20        6
+		temp            77       77        9
+		intsave         26       26        3
+		intsave         2C       2C        1
+		intsave         2B       2B        1
+		intsave         31       31        1
+		intsave         2E       2E        1
+		intsave         2F       2F        1
+		intsave         2A       2A        1
+		intsave         29       29        1
+		intsave         2D       2D        1
+		intsave         30       30        1
+
+	CLASS	BANK1    
+
+	CLASS	BANK2    
+
+	CLASS	BANK3    
+
+	CLASS	COMBANK  
+		intsave_0       76       76        1
+
+	CLASS	CONFIG   
+		config        2007     2007        1
+
+	CLASS	IDLOC    
+
+	CLASS	EEDATA   
+
+
+
+SEGMENTS	Name		Load	Length	 Top	Selector    Space Class
+
+		reset_vec       000000	000003	000003	       0       0  CODE    
+		intentry        000004	00016A	00016E	       8       0  CODE    
+		rbit_0          000020	000012	000032	      20       1  BANK0   
+		intsave_0       000076	000001	000077	      76       1  COMBANK 
+		temp            000077	000009	000080	      77       1  COMBANK 
+		config          002007	000001	002008	    400E       0  CONFIG  
+
+
+UNUSED ADDRESS RANGES
+
+	BANK0            0032-0075
+	BANK1            00A0-00EF
+	BANK2            0110-016F
+	BANK3            0190-01EF
+	CODE             0003-0003
+	                 016E-1FFF
+	COMBANK          0070-0075
+	CONFIG           2008-2008
+	CONST            0003-0003
+	                 016E-1FFF
+	EEDATA           2100-21FF
+	ENTRY            0003-0003
+	                 016E-1FFF
+	IDLOC            2000-2003
+	STRING           0003-0003
+	                 016E-1FFF
+
+                                  Symbol Table
+
+?_delay_ms          rbss_0      0024  ?a_Send_Char        rbss_0      0024
+?a_delay_ms         rbss_0      0024  _Init_PIC           text0       0149
+_Init_USART         text0       0113  _Send_Char          text1       0165
+__Beeprom_data      eeprom_data 2100  __Bnvbit_0          nvbit_0     020E
+__Bnvbit_1          nvbit_1     00A0  __Bnvbit_2          nvbit_2     0110
+__Bnvbit_3          nvbit_3     0190  __Bptbit_0          ptbit_0     020E
+__Brbit_0           rbit_0      0020  __Brbit_1           rbit_1      00A0
+__Brbit_2           rbit_2      0110  __Brbit_3           rbit_3      0190
+__Hclrtext          clrtext     0068  __Hcode             code        020E
+__Hcode_ptr         code_ptr    0032  __Hcommon_ram       common_ram  020E
+__Hconfig           config      2008  __Heeprom_data      eeprom_data 0000
+__Hend_init         end_init    0068  __Hfloat_text0      float_text0 0076
+__Hfloat_text1      float_text1 0076  __Hfloat_text2      float_text2 0076
+__Hfloat_text3      float_text3 0076  __Hfloat_text4      float_text4 0107
+__Hidata_0          idata_0     0068  __Hidata_1          idata_1     0068
+__Hidata_2          idata_2     0068  __Hidata_3          idata_3     0068
+__Hidloc            idloc       2000  __Hinit             init        005D
+__Hinit23           init23      005D  __Hintcode          intcode     0050
+__Hintentry         intentry    001F  __Hintret           intret      0059
+__Hintsave          intsave     020E  __Hintsave_0        intsave_0   0077
+__Hintsave_1        intsave_1   00A0  __Hintsave_2        intsave_2   0110
+__Hintsave_3        intsave_3   0190  __Hmaintext         maintext    0068
+__Hnvbit_0          nvbit_0     1070  __Hnvbit_1          nvbit_1     0500
+__Hnvbit_2          nvbit_2     0880  __Hnvbit_3          nvbit_3     0C80
+__Hnvram            nvram       0026  __Hnvram_1          nvram_1     00A0
+__Hnvram_2          nvram_2     0110  __Hnvram_3          nvram_3     0190
+__Hpowerup          powerup     0068  __Hpstrings         pstrings    0068
+__Hptbit_0          ptbit_0     1070  __Hrbit_0           rbit_0      0100
+__Hrbit_1           rbit_1      0500  __Hrbit_2           rbit_2      0880
+__Hrbit_3           rbit_3      0C80  __Hrbss_0           rbss_0      0026
+__Hrbss_1           rbss_1      00A0  __Hrbss_2           rbss_2      0110
+__Hrbss_3           rbss_3      0190  __Hrdata_0          rdata_0     0026
+__Hrdata_1          rdata_1     00A0  __Hrdata_2          rdata_2     0110
+__Hrdata_3          rdata_3     0190  __Hreset_vec        reset_vec   0003
+__Hstrings          strings     0068  __Hstringtable      stringtable 0068
+__Hstruct           struct      0032  __Htemp             temp        0080
+__Htext             text        020E  __Hxtemp            xtemp       0032
+__Lclrtext          clrtext     0068  __Lcode             code        020E
+__Lcode_ptr         code_ptr    0032  __Lcommon_ram       common_ram  020E
+__Lconfig           config      2007  __Leeprom_data      eeprom_data 0000
+__Lend_init         end_init    005D  __Lfloat_text0      float_text0 0068
+__Lfloat_text1      float_text1 0076  __Lfloat_text2      float_text2 0076
+__Lfloat_text3      float_text3 0076  __Lfloat_text4      float_text4 0076
+__Lidata_0          idata_0     0068  __Lidata_1          idata_1     0068
+__Lidata_2          idata_2     0068  __Lidata_3          idata_3     0068
+__Lidloc            idloc       2000  __Linit             init        0059
+__Linit23           init23      005D  __Lintcode          intcode     001F
+__Lintentry         intentry    0004  __Lintret           intret      0050
+__Lintsave          intsave     020E  __Lintsave_0        intsave_0   0076
+__Lintsave_1        intsave_1   00A0  __Lintsave_2        intsave_2   0110
+__Lintsave_3        intsave_3   0190  __Lmaintext         maintext    0068
+__Lnvbit_0          nvbit_0     1070  __Lnvbit_1          nvbit_1     0500
+__Lnvbit_2          nvbit_2     0880  __Lnvbit_3          nvbit_3     0C80
+__Lnvram            nvram       0026  __Lnvram_1          nvram_1     00A0
+__Lnvram_2          nvram_2     0110  __Lnvram_3          nvram_3     0190
+__Lpowerup          powerup     0068  __Lpstrings         pstrings    0068
+__Lptbit_0          ptbit_0     1070  __Lrbit_0           rbit_0      0100
+__Lrbit_1           rbit_1      0500  __Lrbit_2           rbit_2      0880
+__Lrbit_3           rbit_3      0C80  __Lrbss_0           rbss_0      0020
+__Lrbss_1           rbss_1      00A0  __Lrbss_2           rbss_2      0110
+__Lrbss_3           rbss_3      0190  __Lrdata_0          rdata_0     0026
+__Lrdata_1          rdata_1     00A0  __Lrdata_2          rdata_2     0110
+__Lrdata_3          rdata_3     0190  __Lreset_vec        reset_vec   0000
+__Lstrings          strings     0068  __Lstringtable      stringtable 0068
+__Lstruct           struct      0032  __Ltemp             temp        0077
+__Ltext             text        020E  __Lxtemp            xtemp       0032
+__S0                (abs)       2008  __S1                (abs)       0190
+__S2                (abs)       2100  __end_of_Init_PIC   text1       016E
+__end_of_Init_USART text1       0165  __end_of_Send_Char  text2       016E
+__end_of_delay_ms   text1       016E  __end_of_gps        intentry    000D
+__end_of_main       text1       016E  _delay_ms           text0       0133
+_exit               init        0059  _gps                intcode     001F
+_gpsPoint           rbss_0      0020  _main               text0       0158
+_recdata            rbss_0      0021  abtoft              float_text4 0076
+altoft              float_text4 00F4  clear_bank0         init        0059
+clear_bit0          init        0059  clear_ram           end_init    0063
+code_ptr            code_ptr    0032  ftnorm1             float_text4 00AD
+fttol               float_text4 00D1  ftunpack1           float_text4 0083
+ftunpack2           float_text4 0092  int_entry           intentry    0004
+int_func            intcode     001F  int_restore         intret      0054
+intlevel0           intentry    0004  intlevel1           intentry    0004
+l0neg               float_text0 0068  lbtoft              float_text4 007F
+lltoft              float_text4 00F9  reset_vec           reset_vec   0000
+save_btemp0         intentry    000D  save_btemp1         intentry    000F
+save_btemp10        intentry    000F  save_btemp11        intentry    000F
+save_btemp12        intentry    000F  save_btemp13        intentry    000F
+save_btemp14        intentry    000F  save_btemp2         intentry    0011
+save_btemp3         intentry    0013  save_btemp4         intentry    0015
+save_btemp5         intentry    0017  save_btemp6         intentry    0019
+save_btemp7         intentry    001B  save_btemp8         intentry    001D
+save_btemp9         intentry    001F  save_code_ptr       intentry    001F
+start               init        0059  storeback_3         ftext0      0107
+used_btemp0         (abs)       0001  used_btemp1         (abs)       0001
+used_btemp2         (abs)       0001  used_btemp3         (abs)       0001
+used_btemp4         (abs)       0001  used_btemp5         (abs)       0001
+used_btemp6         (abs)       0001  used_btemp7         (abs)       0001
+used_btemp8         (abs)       0001  zerctt              float_text4 008E

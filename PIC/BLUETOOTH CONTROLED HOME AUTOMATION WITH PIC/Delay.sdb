@@ -1,0 +1,12 @@
+[p GLOBOPT AUTOSTATIC PIC14 PICMIDHI PICLOMID CANREADCODE SPACEOPT ]
+"6 D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c
+[v _delay_ms `(v  1 e 0 0 ]
+{
+[v _MS `i  1 p 2 0 ]
+[v _MS `i  1 p 2 0 ]
+"9
+{
+[v _cycles `ui  1 a 2 0 ]
+}
+"13
+} 2

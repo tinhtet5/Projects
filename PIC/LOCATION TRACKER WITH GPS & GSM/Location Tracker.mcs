@@ -1,0 +1,302 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\Delay.obj
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File001]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\Delay.sdb
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File002]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\Delay.rlf
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File003]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\Delay.lst
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File004]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\Init_PIC.obj
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File005]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\Init_PIC.sdb
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File006]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\Init_PIC.rlf
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File007]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\Init_PIC.lst
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File008]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\main.obj
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File009]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\main.sdb
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File010]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\main.rlf
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File011]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\main.lst
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File012]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\usart.obj
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File013]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\usart.sdb
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File014]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\usart.rlf
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File015]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\usart.lst
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File016]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\Location Tracker.cof
+Folder=Output
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File017]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\Location Tracker.hex
+Folder=Output
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File018]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\Location Tracker.sym
+Folder=Output
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File019]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\Location Tracker.map
+Folder=Output
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File020]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\Location Tracker.hxl
+Folder=Output
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File021]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\startup.lst
+Folder=Output
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=
+[File022]
+Location=D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\startup.rlf
+Folder=Output
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Delay.c|Init_PIC.c|main.c|usart.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString= C9=1
+TraceCmdString=
+DebugOptions=

@@ -1,0 +1,33 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"5 D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\Delay.c
+[v _delay_ms `(v 1 ef1`i ]
+{
+[v _MS `i 1 r1 ]
+[e :U _delay_ms ]
+[f ]
+[; ;Delay.c: 4: void delay_ms(int MS)
+[; ;Delay.c: 5: {
+[; ;Delay.c: 6: do
+"6
+[e :U 4 ]
+[; ;Delay.c: 7: {
+[; ;Delay.c: 8: {unsigned int cycles; cycles=(unsigned int) ((990*1e-6)/(9.0*4/(20*1e6))); while(--cycles); };
+"8
+{
+[v _cycles `ui 1 a ]
+[e = _cycles -> / * -> -> 990 `i `d .1e-6 / * .9.0 -> -> 4 `i `d * -> -> 20 `i `d .1e6 `ui ]
+[e $U 5 ]
+[e :U 6 ]
+[e :U 5 ]
+[e $ != =- _cycles -> -> 1 `i `ui -> -> 0 `i `ui 6 ]
+[e :U 7 ]
+}
+"11
+[; ;Delay.c: 9: }
+[; ;Delay.c: 11: while(--MS);
+[e $ != =- _MS -> 1 `i -> 0 `i 4 ]
+[e :U 3 ]
+"12
+[; ;Delay.c: 12: }
+[e :UE 1 ]
+}

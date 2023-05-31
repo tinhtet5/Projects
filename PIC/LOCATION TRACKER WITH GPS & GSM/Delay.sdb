@@ -1,0 +1,12 @@
+[p GLOBOPT AUTOSTATIC PIC14 PICMIDHI PICLOMID CANREADCODE SPACEOPT ]
+"5 D:\Desktop\PROJECTS\PIC\LOCATION TRACKER WITH GPS & GSM\Delay.c
+[v _delay_ms `(v  1 e 0 0 ]
+{
+[v _MS `i  1 p 2 0 ]
+[v _MS `i  1 p 2 0 ]
+"8
+{
+[v _cycles `ui  1 a 2 0 ]
+}
+"12
+} 2

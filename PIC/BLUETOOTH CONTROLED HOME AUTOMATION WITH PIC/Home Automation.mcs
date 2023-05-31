@@ -1,0 +1,601 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=D:\C Language\Home Autoation\adc.sdb
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|adc.c|timer1.c|Delay.c|Init_PIC.c|usart.c|main.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File001]
+Location=D:\C Language\Home Autoation\adc.rlf
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|adc.c|timer1.c|Delay.c|Init_PIC.c|usart.c|main.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File002]
+Location=D:\C Language\Home Autoation\adc.lst
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|adc.c|timer1.c|Delay.c|Init_PIC.c|usart.c|main.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File003]
+Location=D:\C Language\Home Autoation\timer1.sdb
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|adc.c|timer1.c|Delay.c|Init_PIC.c|usart.c|main.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File004]
+Location=D:\C Language\Home Autoation\timer1.rlf
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|adc.c|timer1.c|Delay.c|Init_PIC.c|usart.c|main.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File005]
+Location=D:\C Language\Home Autoation\timer1.lst
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|adc.c|timer1.c|Delay.c|Init_PIC.c|usart.c|main.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File006]
+Location=D:\C Language\Home Autoation\Delay.sdb
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File007]
+Location=D:\C Language\Home Autoation\Delay.rlf
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File008]
+Location=D:\C Language\Home Autoation\Delay.lst
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File009]
+Location=D:\C Language\Home Autoation\Init_PIC.obj
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|adc.c|timer1.c|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\cc1_pwm.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\ccp2.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File010]
+Location=D:\C Language\Home Autoation\Init_PIC.sdb
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|adc.c|timer1.c|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\cc1_pwm.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\ccp2.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File011]
+Location=D:\C Language\Home Autoation\Init_PIC.rlf
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|adc.c|timer1.c|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\cc1_pwm.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\ccp2.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File012]
+Location=D:\C Language\Home Autoation\Init_PIC.lst
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|adc.c|timer1.c|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\cc1_pwm.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\ccp2.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File013]
+Location=D:\C Language\Home Autoation\usart.obj
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File014]
+Location=D:\C Language\Home Autoation\usart.sdb
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File015]
+Location=D:\C Language\Home Autoation\usart.rlf
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File016]
+Location=D:\C Language\Home Autoation\usart.lst
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File017]
+Location=D:\C Language\Home Autoation\Servo.sdb
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File018]
+Location=D:\C Language\Home Autoation\Servo.rlf
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File019]
+Location=D:\C Language\Home Autoation\Servo.lst
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File020]
+Location=D:\C Language\Home Autoation\main.sdb
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File021]
+Location=D:\C Language\Home Autoation\main.rlf
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File022]
+Location=D:\C Language\Home Autoation\main.lst
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File023]
+Location=D:\C Language\Home Autoation\Delay.obj
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File024]
+Location=D:\C Language\Home Autoation\cc1_pwm.sdb
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|adc.c|timer1.c|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\cc1_pwm.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\ccp2.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File025]
+Location=D:\C Language\Home Autoation\cc1_pwm.rlf
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|adc.c|timer1.c|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\cc1_pwm.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\ccp2.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File026]
+Location=D:\C Language\Home Autoation\cc1_pwm.lst
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|adc.c|timer1.c|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\cc1_pwm.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\ccp2.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File027]
+Location=D:\C Language\Home Autoation\ccp2.sdb
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\ccp2.c|cc2_pwm.c|Servo.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File028]
+Location=D:\C Language\Home Autoation\ccp2.rlf
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\ccp2.c|cc2_pwm.c|Servo.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File029]
+Location=D:\C Language\Home Autoation\ccp2.lst
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\ccp2.c|cc2_pwm.c|Servo.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File030]
+Location=D:\C Language\Home Autoation\main.obj
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File031]
+Location=D:\C Language\Home Autoation\cc2_pwm.sdb
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\ccp2.c|cc2_pwm.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File032]
+Location=D:\C Language\Home Autoation\cc2_pwm.rlf
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\ccp2.c|cc2_pwm.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File033]
+Location=D:\C Language\Home Autoation\cc2_pwm.lst
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|D:\C Language\31-MAY-2018\CCP TIMER2 PWM\ccp2.c|cc2_pwm.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File034]
+Location=D:\C Language\Home Autoation\Servo.obj
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File035]
+Location=D:\C Language\Home Autoation\CCP_PWM.obj
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File036]
+Location=D:\C Language\Home Autoation\CCP_PWM.sdb
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File037]
+Location=D:\C Language\Home Autoation\CCP_PWM.rlf
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File038]
+Location=D:\C Language\Home Autoation\CCP_PWM.lst
+Folder=Intermediary
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File039]
+Location=D:\C Language\Home Autoation\Home Automation.cof
+Folder=Output
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File040]
+Location=D:\C Language\Home Autoation\Home Automation.hex
+Folder=Output
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File041]
+Location=D:\C Language\Home Autoation\Home Automation.sym
+Folder=Output
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File042]
+Location=D:\C Language\Home Autoation\Home Automation.map
+Folder=Output
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File043]
+Location=D:\C Language\Home Autoation\Home Automation.hxl
+Folder=Output
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File044]
+Location=D:\C Language\Home Autoation\startup.lst
+Folder=Output
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
+[File045]
+Location=D:\C Language\Home Autoation\startup.rlf
+Folder=Output
+DeviceName=PIC16F887
+LanguageToolSuiteID={507D93FD-16F1-4270-980F-0C7C0207E6D3}
+LanguageToolID={0F51667C-2BAF-4EF8-A2C9-AB83788A793D}
+LanguageToolLocation=C:\Program Files (x86)\HI-TECH Software\PICC\STD\9.60\bin\picc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Init_PIC.c|usart.c|main.c|D:\C Language\29-may-2018\ADC timer1 1ms conv\Delay.c|Servo.c|CCP_PWM.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=C9=1
+TraceCmdString=
+DebugOptions=
